@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursus Matematika</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        #contact {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1" href="index.html">Kursus Matematika</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="contact">
+        <div class="text-center">
+            <h1 class="text-success">Login</h1>
+            <p>Silakan login jika sudah memiliki akun, jika belum klik
+                <a href="daftar.html" class="text-success">daftar</a>
+            </p>
+        </div>
+        <form class="row g-4">
+            <div class="col-12">
+                <label for="email" class="form-label">Alamat Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email" required>
+            </div>
+            <div class="col-12">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Masukkan password" required>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-success" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
